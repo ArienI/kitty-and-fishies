@@ -1,0 +1,9 @@
+.app {
+  display: flex; /* Включаем Flexbox */
+  justify-content: center; /* Центрируем содержимое по горизонтали */
+  align-items: center; /* Центрируем содержимое по вертикали */
+
+  width: 1024px;
+  height: 740px;
+  background-color: rgb(139, 119, 93);
+}

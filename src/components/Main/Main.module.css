@@ -1,0 +1,35 @@
+.main {
+  width: 100%;
+
+  color: rgba(117, 97, 59, 0.795);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.cat {
+  max-width: 400px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.cat:hover {
+  cursor: url('../../images/fish5.png'), auto;
+}
+
+.text {
+  max-width: 300px;
+  align-self: end;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
